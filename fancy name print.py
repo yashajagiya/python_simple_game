@@ -7,7 +7,7 @@ def fancy_name(name : str):
     count = 0  
     while count < len(name):  
         for i in alphabet:  
-            print(fname + i,)
+            print(fname + i)
             time.sleep(0.2)  
             if name[count] == i:  
                 count += 1  
